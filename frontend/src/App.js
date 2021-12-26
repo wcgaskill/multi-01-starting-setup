@@ -14,7 +14,7 @@ function App() {
       setIsLoading(true);
 
       try {
-        const response = await fetch('http://ec2-54-162-13-246.compute-1.amazonaws.com/goals';
+        const response = await fetch('http://ec2-54-162-13-246.compute-1.amazonaws.com/goals');
 
         const resData = await response.json();
 
